@@ -1,0 +1,15 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    WikiPia | {{ name }}
+{% endblock %}
+
+{% block body %}
+
+    {{ content | safe }}
+    <br><br>
+    Looking for modifying content?
+    <br> 
+    <a href="{% url 'edit' name=name %}"> Click this </a> 
+
+{% endblock %}

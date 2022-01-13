@@ -1,0 +1,15 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    WikiPia | Search
+{% endblock %}
+
+{% block body %}
+    <h1> List of All Related Search </h1>
+    {% for item in result %}
+    <li>
+        <a href="{% url 'entry' item %}">{{ item }}</a>
+    </li>
+    {% endfor %}
+
+{% endblock %}

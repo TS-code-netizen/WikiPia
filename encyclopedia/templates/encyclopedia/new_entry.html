@@ -1,0 +1,19 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    WikiPia | New Entry
+    
+{% endblock %}
+
+{% block body %}
+    
+    <h1>New WikiPia Content</h1>
+    <br>
+    <form action="{% url 'new_entry' %}" method="post", class="form-floating">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Saved">
+    </form>
+
+{% endblock %}
+
