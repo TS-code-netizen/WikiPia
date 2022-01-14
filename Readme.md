@@ -54,7 +54,7 @@ python-markdown2 package
 **Markdown to HTML Conversion**
 - Markdown content in the entry file will be converted to HTML.
 
-## Requirement
+## Requirement:
 1. Install python3 in Visual Studio Code
 2. Install Django package
 ``pip3 install Django``
