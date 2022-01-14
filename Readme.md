@@ -65,4 +65,4 @@ python-markdown2 package
 ``python manage.py runserver``
 
 
-#### Special appreciation to CS50's team
+#### Special appreciation to CS50
