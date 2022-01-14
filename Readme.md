@@ -64,3 +64,4 @@ python-markdown2 package
 6. Run
 ``python manage.py runserver``
 
+Speacial appreciation to CS50's team
