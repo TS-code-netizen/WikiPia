@@ -61,7 +61,7 @@ python-markdown2 package
 3. Download the whole package in this master branch
 4. Install markdown2 package
 `` pip3 install markdown2 ``
-6. Run
+5. Run
 ``python manage.py runserver``
 
 
