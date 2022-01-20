@@ -58,7 +58,7 @@ python-markdown2 package
 1. Install python3 in Visual Studio Code
 2. Install Django package
 ``pip3 install Django``
-3. Download the whole package in the master branch
+3. Download the whole package in this master branch
 4. Install markdown2 package
 `` pip3 install markdown2 ``
 6. Run
