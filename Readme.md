@@ -63,6 +63,3 @@ python-markdown2 package
 `` pip3 install markdown2 ``
 5. Run
 ``python manage.py runserver``
-
-
-#### Special appreciation to CS50
